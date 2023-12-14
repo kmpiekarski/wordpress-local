@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@wordpress/env": "^9.0.0"
+  },
+  "scripts": {
+    "wp-env": "wp-env",
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "destroy": "wp-env destroy",
+    "activate-plugin": "wp-env run cli wp plugin activate",
+    "deactivate-plugin": "wp-env run cli wp plugin deactivate"
+  }
+}
